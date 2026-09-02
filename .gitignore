@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+# Keep dependencies and build output out of Git
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# Editor settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
